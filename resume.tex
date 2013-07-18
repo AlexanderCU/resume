@@ -1,0 +1,166 @@
+% This tex file is closely imitated from:
+% http://www.hsph.harvard.edu/~paciorek/computingTips/Latex_template_creating_CV_.html
+%
+\documentclass[margin,line]{res}
+
+\oddsidemargin -.6in
+\evensidemargin -.6in
+\textheight=10in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+
+\name{William Chen \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{4in}}
+5840 Willow Wood Ln.        & (214) 431-4654 \\
+Dallas, TX 75252            & wchen16@gmail.com \\
+                            & http://will.iamchen.com \\
+\end{tabular}
+
+
+%
+% Experience Section
+%
+\section{\sc Experience}
+{\bf Cisco}, San Jose, CA \\
+{\em Choice Intern}, ARTG, IOS Threat Defense Team \hfill {\bf May 2010 - Aug 2010}\\
+\vspace{-3mm}
+\begin{list2}
+\item Drafted and executed test cases for IOS security features such as SCM and FPM
+  (signature- and statistical-based packet matching)
+\item Gained in-depth understanding of IPS/IDS, IOS CLI, Skype trafficking, packet matching
+\end{list2}
+
+{\bf Texas A\&M University}, College Station, TX \\
+{\em Student Technician}, Dept. of Mathematics \hfill {\bf Sept 2010 - present} \\
+\vspace{-3mm}
+\begin{list2}
+\item Unix system administration, general help desk activities, moving and setting up equipment, diagnosing hardware and software problems, coordinating hardware maintenance calls with vendors, and other duties as assigned by the systems support staff
+\end{list2}
+
+{\em Student Programs Web Developer}, Memorial Student Center \hfill {\bf Sept 2009 - Sept 2010} \\
+\vspace{-3mm}
+\begin{list2}
+\item Web development support to the 19 MSCC Committees by providing programming and design support
+\item Provide design consultation services and recommendations to client (Committee members)
+\item Design and create a client-approved layout that works with the in-house template system
+\end{list2}
+
+{\bf Masergy Communications}, Plano, TX \\
+{\em Network Operations Center (NOC) Intern} \hfill {\bf Feb 2008 - July 2008} \\
+\vspace{-3mm}
+\begin{list2}
+\item Programmed a script that increased the productivity of upgrading MIBs by eightfold
+\item Initiated a database reorganization that allowed more accurate retrieval of customer info
+\item Opened and maintained trouble tickets for customer calls, network outages, etc.
+\end{list2}
+
+%
+% Education Section
+%
+\section{\sc Education}
+{\bf Texas A\&M University}, College Station, TX \hfill {\bf Aug 2008 - present} \\
+\vspace*{-3mm}
+\begin{list1}
+\item[] B.S. in Computer Science, minor in Math and Business
+\item[] (expected graduation: May 2012)
+\item[] List of courses taken available upon request
+%\begin{list2}
+%\vspace*{.05in}
+%\item GPA: 3.32
+%\item Topics learned:\\
+%\item 313: NAND gates, SR Latch
+%\item 315: functional programming
+%\item 411: matroids, dynamic programming
+%\item Linear Algebra, Cryptography, Statistics, Accounting, Management, Marketing
+%
+%
+%\item Relevant Coursework:\\
+%\begin{ncolumn}{2}
+%CSCE 312: Computer Organization     & CSCE 431: Software Engineering \\
+%CSCE 314: Programming Languages     & CSCE 438: Distributed Object Programming \\
+%CSCE 313: Computer Systems          & Pysics, Calculus, Linear Algebra, Cryptography \\
+%CSCE 315: Programming Studio        & \hspace{5mm} Statistics, Accounting, Management \\
+%CSCE 411: Algorithms                & \hspace{5mm} Marketing \\
+%\begin{verbatim}currenly ongoing courses\end{verbatim}
+%\end{ncolumn}
+%\end{list2}
+%\vspace*{.05in}
+\end{list1}
+
+%
+% Projects Section
+%
+\section{\sc Projects}
+\begin{list2}
+\item Hospital management system, using C\# and Agile methodology
+\item Product search website, using Agile methodology
+\item Simple relational database and parser with C++
+\item Simple C lexer and parser with Haskell
+\item Game similar to GuitarHero with C++ and FLTK
+%\item Worked on programming puzzles, sources include TopCoder, Google Jam, Microsoft Puzzle Challenge
+\end{list2}
+
+
+%
+% Skills Section
+%
+\section{\sc Skills} 
+\begin{list2}
+\item Languages \hspace{2.51in} Software\\
+  \begin{tabular}{@{}p{0.9in}p{2in}p{0.5in}p{4in}}
+  %\begin{ncolumn}{2}
+  Programming:   & C/C++, Java, Haskell                 & IDE:        & vim, Visual Studio \\
+  Scripting:     & Python, bash, Perl                   & Network:    & Wireshark, iptables \\
+  Webdev:        & PHP, C\#, learning Ruby on Rails     & OS:         & Win7, Mac, Ubuntu, ArchLinux\\
+  Others:        & \LaTeX, Cisco IOS                    & &
+  %\end{ncolumn}
+  \end{tabular}
+\item Linux administration, hardware troubleshooting, networking \& security
+\end{list2}
+
+
+%
+% Activities Section
+%
+\section{\sc Activities}
+{\bf ACM ICPC Regionals}, {\em 18$^{th}$ of 71} \hfill 2010 \\
+{\bf Microsoft Puzzle Challenge} \hfill 2008, 2010 \\
+%{\bf Microsoft ImagineCup} \\
+{\bf Texas A\&M Computing Society}, {\em Webmaster} \hfill Aug 2008-Present \\
+{\bf Texas A\&M Unix and Linux User Group}, {\em Member} \hfill Aug 2009-Present \\
+%{\bf Collegiate Cyber Defense Competition}, {\em Member}  \hfill 2011 \\
+{\bf Hong Kong Student Association}, {\em Webmaster} \hfill Aug 2008-Present
+
+%
+% Interests Section
+%
+%\section{\sc Interests}
+%\begin{list2}
+%\item Photography
+%\end(list2}
+
+
+\end{resume}
+\end{document}
+
+
