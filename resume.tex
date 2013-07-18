@@ -8,9 +8,10 @@
     citecolor=black,%
     filecolor=black,%
     linkcolor=black,%
-    urlcolor=black
+    urlcolor=blue
 }
 
+\voffset -0.5in
 \oddsidemargin -.6in
 \evensidemargin -.6in
 \textheight=10in
@@ -18,18 +19,22 @@
 \itemsep=0in
 \parsep=0in
 
-\newenvironment{list1}{
-  \begin{list}{\ding{113}}{%
-      \setlength{\itemsep}{0in}
-      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.17in}}}{\end{list}}
-\newenvironment{list2}{
-  \begin{list}{$\bullet$}{%
-      \setlength{\itemsep}{0in}
-      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.18in}}}{\end{list}}
+\newenvironment{list1}
+  {\vspace*{-3mm}
+   \begin{list}{\ding{113}}{
+     \setlength{\itemsep}{0in}
+     \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+     \setlength{\topsep}{0in} \setlength{\partopsep}{1in} 
+     \setlength{\leftmargin}{0in}}}
+  {\end{list}}
+\newenvironment{list2}
+  {\vspace{-4mm}
+   \begin{list}{$\bullet$}{
+     \setlength{\itemsep}{0in}
+     \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+     \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+     \setlength{\leftmargin}{0.18in}}}
+  {\end{list}}
 
 \begin{document}
 
@@ -37,71 +42,61 @@
 
 \begin{resume}
 \section{\sc Contact Information}
-\vspace{.05in}
-\begin{tabular}{@{}p{3in}p{4in}}
+\begin{tabular}{@{}p{2.5in}p{4in}}
 (214) 431-4654             & \href{mailto:wchen16@gmail.com}{wchen16@gmail.com} \\
-3409 Crescent Ct.          & \href{http://will.iamchen.com}{http://will.iamchen.com} \\
-Plano, TX 75093            & \href{http://github.com/wwchen}{http://github.com/wwchen} \\
-                           
+128 State St S. Apt 331    & \href{http://will.iamchen.com}{http://will.iamchen.com} \\
+Kirkland, WA, 98033        & \href{http://linkedin.com/in/wwchen}{http://linkedin.com/in/wwchen} \\
 \end{tabular}
-
-%
-% Education Section
-%
-\section{\sc Education}
-{\bf Texas A\&M University}, College Station, TX \hfill {\bf Aug 2008 - May 2012} \\
-\vspace*{-3mm}
-\begin{list1}
-\item[] \hspace*{-5mm} B.S. in Computer Science, minor in Business
-\item[] \hspace*{-5mm} Relevant coursework: Network Security, Info Storage \& Retrieval,
- Cryptography, Computational Photography, AI, Computer Graphics
-\item[] \hspace*{-5mm} Overal GPA: 2.99 \hspace{5mm} Major GPA: 3.37
-%\item[] \hspace*{-5mm} Full list of courses taken available upon request
-\end{list1}
-
 
 %
 % Experience Section
 %
 \section{\sc Experience}
-{\bf Microsoft}, Bellevue, WA \\
-{\em SDET Intern}, OSD, Bing Mobile \hfill {\bf May 2011 - Aug 2011} \\
-\vspace{-3mm}
+{\bf \href{http://microsoft.com}{Microsoft}}, Bellevue, WA \\
+%{\em Software Engineer in Test}, \href{http://www.zdnet.com/microsofts-latest-search-share-attack-plan-focus-on-mobile-apps-7000008908/}{AppEx}, OSD                       \hfill {\bf Aug 2012 - present} \\
+{\em Software Engineer in Test}, AppEx, OSD                       \hfill {\bf Aug 2012 - present} \\
+\begin{list2}
+\item Working on \href{http://www.zdnet.com/microsofts-latest-search-share-attack-plan-focus-on-mobile-apps-7000008908/}{Application Experiences} (AppEx) Common UX test team, where we develop the modern Bing apps (News, Weather, Travel, Finance, Sports) on Windows 8
+\item Driving initial efforts on building test app and automation tools
+\item Create and execute test plans which encompasses aspects like instrumentation, data fuzzing, integration,
+  memory leak, accessibility, network bandwidth
+\end{list2}
+
+{\em Software Engineer in Test Intern}, Bing Mobile, OSD          \hfill {\bf May 2011 - Aug 2011} \\
 \begin{list2}
 \item Implemented an end-to-end solution for automation testing on Blackberry and Android devices 
   and emulators for Bing Mobile
 \item Leveraged existing solutions across teams and combining them for a more uniform approach
 \end{list2}
 
-{\bf Cisco}, San Jose, CA \\
-{\em Choice Intern}, ARTG, IOS Threat Defense Team \hfill {\bf May 2010 - Aug 2010}\\
-\vspace{-3mm}
+{\bf \href{http://cisco.com}{Cisco}}, San Jose, CA \\
+{\em Choice Intern}, IOS Threat Defense Team, ARTG                \hfill {\bf May 2010 - Aug 2010}\\
 \begin{list2}
 \item Drafted and executed test cases for IOS security features such as SCM and FPM
   (signature- and statistical-based packet matching)
 \item Gained in-depth understanding of IPS/IDS, IOS CLI, Skype trafficking, packet matching
 \end{list2}
 
-{\bf Texas A\&M University}, College Station, TX \\
-{\em Student Technician}, Dept. of Mathematics \hfill {\bf Sept 2010 - Sept 2011} \\
-\vspace{-3mm}
+{\bf \href{http://tamu.edu}{Texas A\&M University}}, College Station, TX \\
+{\em Student Technician}, Dept. of Mathematics                    \hfill {\bf Sept 2010 - Sept 2011} \\
 \begin{list2}
-\item Unix system administration, general help desk activities, moved and set up
-  equipment, diagnosed hardware and software problems, coordinated hardware maintenance
-  calls with vendors, and other duties as assigned by the systems support staff
+\item Performed Unix system administration (FreeBSD, CentOS, Mint, Debian) and help desk activities
+\item Wrote departmental management and survey tools
+\item Maintained student computer labs of 200+ machines
+%\item Performed unix system administration, general help desk activities, moved and set up
+%  equipment, diagnosed hardware and software problems, coordinated hardware maintenance
+%  calls with vendors, and other duties as assigned by the systems support staff
 \end{list2}
 
-{\em Student Programs Web Developer}, Memorial Student Center \hfill {\bf Sept 2009 - Sept 2010} \\
-\vspace{-3mm}
+{\em Student Programs Web Developer}, Memorial Student Center     \hfill {\bf Sept 2009 - Sept 2010} \\
 \begin{list2}
 \item Web development support to the 19 MSCC Committees by providing programming and design support
 \item Provide design consultation services and recommendations to client (Committee members)
 \item Design and create a client-approved layout that works with the in-house template system
 \end{list2}
 
-{\bf Masergy Communications}, Plano, TX \\
-{\em Network Operations Center (NOC) Intern} \hfill {\bf Feb 2008 - July 2008} \\
-\vspace{-3mm}
+{\bf \href{http://www.masergy.com/}{Masergy Communications}}, Plano, TX \\
+{\em Network Operations Center (NOC) Intern}                      \hfill {\bf Feb 2008 - July 2008} \\
 \begin{list2}
 \item Programmed a script that increased the productivity of upgrading MIBs by eightfold
 \item Initiated a database reorganization that allowed more accurate retrieval of customer info
@@ -109,17 +104,56 @@ Plano, TX 75093            & \href{http://github.com/wwchen}{http://github.com/w
 \end{list2}
 
 %
-% Extracurricular Activities Section
+% Education Section
 %
-\section{\sc Extracurricular Activities}
-{\bf Collegiate Cyber Defense Competition}, {\em 2$^{nd}$ in Nationals}, {\em 1$^{st}$ in Southwest Regional}  \hfill 2011 \\
-{\bf Collegiate Cyber Defense Competition}, {\em 3$^{nd}$ in Nationals}, {\em 1$^{st}$ in Southwest Regional}  \hfill 2012 \\
+\section{\sc Education}
+{\bf \href{http://tamu.edu}{Texas A\&M University}}, College Station, TX \hfill {\bf Aug 2008 - May 2012} \\
+{\em B.S. in \href{http://cs.tamu.edu}{Computer Science}, minor in \href{http://mays.tamu.edu}{Business}} \\
+{\em Overal GPA: 2.99 \hspace{5mm} Major GPA: 3.37} \\
+\begin{list2}
+\item Relevant coursework: Network Security, Info Storage \& Retrieval,
+ Cryptography, Computational Photography, AI, Computer Graphics
+\item Vice President of \href{http://tacs.tamu.edu}{Texas A\&M Computing Society}, ACM Chapter
+\item Webmaster of Chinese Student Association
+%\item Active member of Texas A\&M Unix and Linux User Group
+\end{list2}
+
+
+%
+% Achievements Section
+%
+\section{\sc Achievements}
+{\bf \href{http://seattle.startupweekend.org/}{Seattle Startup Weekend}}, \href{http://seattle.startupweekend.org/2012/11/26/seattle-startup-weekend-global-startup-battle-edition-winners-more/}{Corki},  {\em 1$^{st}$} \hfill 2012 \\
+{\bf \href{http://www.nationalccdc.org/}{Collegiate Cyber Defense Competition}}, {\em 3$^{nd}$ in Nationals}, {\em 1$^{st}$ in Southwest Regional}  \hfill 2012 \\
+{\bf \href{http://www.nationalccdc.org/}{Collegiate Cyber Defense Competition}}, {\em 2$^{nd}$ in Nationals}, {\em 1$^{st}$ in Southwest Regional}  \hfill 2011 \\
 %{\bf ACM ICPC}, {\em 18$^{th}$of 71 in Southcentral Regional} \hfill 2010 \\
 %{\bf Microsoft Puzzle Challenge} \hfill 2008, 2010 \\
-%{\bf Microsoft ImagineCup} \\
-{\bf Texas A\&M Computing Society, ACM Chapter}, {\em Vice President} \hfill 2008-2012 \\
-{\bf Texas A\&M Unix and Linux User Group}, {\em Member} \hfill 2009-2012 \\
-{\bf Hong Kong Student Association}, {\em Webmaster} \hfill 2008-2012
+%{\bf Texas A\&M Computing Society, ACM Chapter}, {\em Vice President} \hfill 2008-2012 \\
+%{\bf Texas A\&M Unix and Linux User Group}, {\em Member} \hfill 2009-2012 \\
+%{\bf Hong Kong Student Association}, {\em Webmaster} \hfill 2008-2012
+\vspace*{-5mm}
+
+%
+% Skills Section
+%
+\section{\sc Skills} 
+\textcolor{white}{.}
+\begin{list2}
+\item Extensive experience on configuring and troubleshooting Debian-based machines
+\item Knowledgeable in networking, security, web programming
+\item C++, C\#; bash, Ruby, Python; Rails, Javascript, MySQL; \LaTeX, Cisco IOS
+\end{list2}
+%Linux administration, hardware troubleshooting, networking \& security \\
+%\underline{Languages} \hspace{2.51in} \underline{Software}\\
+%\begin{tabular}{@{}p{0.9in}p{2in}p{0.5in}p{4in}}
+%%\begin{ncolumn}{2}
+%Programming:   & C/C++, C\#, Java           & IDE:        & vim, Visual Studio \\
+%Scripting:     & Python, bash, Perl         & Network:    & Wireshark, iptables, Postfix \\
+%Webdev:        & PHP, Ruby, MySQL           & OS:         & Win7, Mac, Debian\\
+%Others:        & \LaTeX, Cisco IOS          & &
+%\end{ncolumn}
+%\end{tabular}
+
 
 %
 % Projects Section
@@ -138,26 +172,6 @@ Plano, TX 75093            & \href{http://github.com/wwchen}{http://github.com/w
 %%\item Worked on programming puzzles, sources include TopCoder, Google Jam, Microsoft Puzzle Challenge
 %\end{list2}
 
-
-%
-% Skills Section
-%
-\section{\sc Skills} 
-\begin{list2}
-\item Extensive experience on configuring and troubleshooting Debian-based machines
-\item Knowledgeable in networking and security
-\item C++, C\#; Python, bash, Perl; PHP, Ruby, MySQL; \LaTeX, Cisco ISO
-\end{list2}
-%Linux administration, hardware troubleshooting, networking \& security \\
-%\underline{Languages} \hspace{2.51in} \underline{Software}\\
-%\begin{tabular}{@{}p{0.9in}p{2in}p{0.5in}p{4in}}
-%%\begin{ncolumn}{2}
-%Programming:   & C/C++, C\#, Java           & IDE:        & vim, Visual Studio \\
-%Scripting:     & Python, bash, Perl         & Network:    & Wireshark, iptables, Postfix \\
-%Webdev:        & PHP, Ruby, MySQL           & OS:         & Win7, Mac, Debian\\
-%Others:        & \LaTeX, Cisco IOS          & &
-%\end{ncolumn}
-%\end{tabular}
 
 
 %
