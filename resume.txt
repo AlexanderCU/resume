@@ -1,59 +1,59 @@
 William Chen
 
-Contact         128 State St S. Apt 331     http://will.iamchen.com
-Information     Kirkland, WA, 98033         http://github.com/wwchen
-                wchen16@gmail.com           http://linkedin.com/in/wwchen
-                (214) 431-4654              http://flickr.com/photos/william-chen
+Contact       128 State St S. Apt 331         http://will.iamchen.com
+Information   Kirkland, WA, 98033             http://github.com/wwchen
+              wchen16@gmail.com               http://linkedin.com/in/wwchen
+              (214) 431-4654                  http://flickr.com/photos/william-chen
 
-Achievements    Seattle Startup Weekend, Corki, 1st                                                             2012
-                Collegiate Cyber Defense Competition, 3rd in Nationals, 1st in Southwest Regional               2012
-                Collegiate Cyber Defense Competition, 2nd in Nationals, 1st in Southwest Regional               2011
+Experience
+  Microsoft, Bellevue, WA
+  Software Engineer in Test, AppEx, OSD                                                 Aug 2012 - present
+   * Working on Application Experiences Common UX test team, where we own and test the common
+     controls and features for all modern Bing apps (News, Weather, Travel, Finance, Sports, Health
+     & Fitness, Food & Drinks) on Windows 8 and 8.1
+   * Successfully shipped six releases since Windows 8 RTM, with zero recall class bugs
+   * Create and execute test plans which encompass aspects like instrumentation, data fuzzing, inte-
+     gration, memory leak, accessibility, network bandwidth
+   * Drove initial efforts on building test app and automation tools
+   * Feature test owner for: entity cluster, test automation, instrumentation, live site, partner pano, ads
 
-Experience      Microsoft, Bellevue, WA
-                Software Engineer in Test, AppEx, OSD                                             Aug 2012 - present
-                 * Working on Application Experiences Common UX test team, where we test the common func-
-                   tionalities and features for all modern Bing apps (News, Weather, Travel, Finance, Sports, Health
-                   & Fitness, Food & Drinks) on Windows 8 and 8.1
-                 * Create and execute test plans which encompasses aspects like instrumentation, data fuzzing,
-                   integration, memory leak, accessibility, network bandwidth
-                 * Drove initial efforts on building test app and automation tools
-                 * Feature test owner for: entity cluster, automation, Javascript automation, instrumentation, live
-                   site, partner pano
+  Software Engineer in Test Intern, Bing Mobile, OSD                                    May 2011 - Aug 2011
+   * Implemented an end-to-end solution for automation testing on Blackberry and Android devices
+     and emulators for Bing Mobile
+   * Leveraged existing solutions across teams and combining them for a more uniform approach
 
-                Software Engineer in Test Intern, Bing Mobile, OSD                                May 2011 - Aug 2011
-                 * Implemented an end-to-end solution for automation testing on Blackberry and Android devices
-                   and emulators for Bing Mobile
-                 * Leveraged existing solutions across teams and combining them for a more uniform approach
+  Cisco, San Jose, CA
+  Choice Intern, IOS Threat Defense Team, ARTG                                          May 2010 - Aug 2010
+   * Drafted and executed test cases for IOS security features such as SCM and FPM (signature- and
+     statistical-based packet matching)
+   * Gained in-depth understanding of IPS/IDS, IOS CLI, Skype trafficking, packet matching
 
+  Texas A&M University, College Station, TX
+  Student Technician, Dept. of Mathematics                                              Sept 2010 - Sept 2011
+   * Performed Unix system administration (FreeBSD, CentOS, Mint, Debian) and help desk activities
+   * Wrote departmental management and survey tools
+   * Maintained student computer labs of 200+ machines
 
-                Cisco, San Jose, CA
-                Choice Intern, IOS Threat Defense Team, ARTG                                      May 2010 - Aug 2010
-                 * Drafted and executed test cases for IOS security features such as SCM and FPM (signature- and
-                   statistical-based packet matching)
-                 * Gained in-depth understanding of IPS/IDS, IOS CLI, Skype trafficking, packet matching
+  Student Programs Web Developer, Memorial Student Center                               Sept 2009 - Sept 2010
+   * Web development support to the 19 MSCC Committees by providing programming and design support
+   * Provide design consultation services and recommendations to client (Committee members)
+   * Design and create a client-approved layout that works with the in-house template system
 
+Education
+  Texas A&M University, College Station, TX                                             Aug 2008 - May 2012
+  B.S. in Computer Science, minor in Business
+  Overall GPA: 3.01 Major GPA: 3.38
+   * Relevant coursework: Network Security, Info Storage & Retrieval, Cryptography, Computational
+     Photography, AI, Computer Graphics
+   * Vice President of Texas A&M Computing Society, ACM Chapter
+   * Webmaster of Chinese Student Association
 
-                Texas A&M University, College Station, TX
-                Student Technician, Dept. of Mathematics                                        Sept 2010 - Sept 2011
-                 * Performed Unix system administration (FreeBSD, CentOS, Mint, Debian) and help desk activities
-                 * Wrote departmental management and survey tools
-                 * Maintained student computer labs of 200+ machines
+Achievements
+  Seattle Startup Weekend, Corki, 1st                                                           2012
+  Collegiate Cyber Defense Competition, 3rd in Nationals, 1st in Southwest Regional             2012
+  Collegiate Cyber Defense Competition, 2nd in Nationals, 1st in Southwest Regional             2011
 
-                Student Programs Web Developer, Memorial Student Center                         Sept 2009 - Sept 2010
-                 * Web development support to the 19 MSCC Committees by providing programming and design
-                   support
-                 * Provide design consultation services and recommendations to client (Committee members)
-                 * Design and create a client-approved layout that works with the in-house template system
-
-Education       Texas A&M University, College Station, TX                                         Aug 2008 - May 2012
-                B.S. in Computer Science, minor in Business
-                Overall GPA: 3.01 Major GPA: 3.38
-                 * Relevant coursework: Network Security, Info Storage & Retrieval, Cryptography, Computational
-                   Photography, AI, Computer Graphics
-                 * Vice President of Texas A&M Computing Society, ACM Chapter
-                 * Webmaster of Chinese Student Association
-
-Skills 
-                 * Extensive experience on configuring and troubleshooting Debian-based machines
-                 * Knowledgeable in networking, security, web programming
-                 * C++, C#; bash, Ruby, Python; Rails, Javascript, MySQL; LaTeX, Cisco IOS
+Skills
+  * Extensive experience on configuring and troubleshooting Debian-based machines
+  * Knowledgeable in networking, security, web programming
+  * C++, C#; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
