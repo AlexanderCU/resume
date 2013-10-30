@@ -57,5 +57,5 @@ Achievements
 Skills
   * Extensive experience on configuring and troubleshooting Debian-based machines
   * Knowledgeable in networking, security, web programming
-  * C++, C#; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
+  * C++; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
 
