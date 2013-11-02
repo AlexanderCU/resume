@@ -16,7 +16,7 @@ Experience
      gration, memory leak, accessibility, network bandwidth
    * Drove initial efforts on building test app and automation tools
    * Feature test owner for: entity cluster, test automation, instrumentation, live site, partner pano, ads
-   * Work impact: Our apps have an aggregate of 2.9M daily users with 52.1M daily sessions
+   * Work impact: 2.9M daily active users and 52.1M daily active sessions
 
   Software Engineer in Test Intern, Bing Mobile, OSD                                    May 2011 - Aug 2011
    * Implemented an end-to-end solution for automation testing on Blackberry and Android devices
@@ -58,4 +58,5 @@ Skills
   * Extensive experience on configuring and troubleshooting Debian-based machines
   * Knowledgeable in networking, security, web programming
   * C++; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
+
 
