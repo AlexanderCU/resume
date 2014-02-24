@@ -58,4 +58,4 @@ Skills
   * Knowledgeable in networking, security, web programming
   * C++; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
 
-
+** Get the latest resume at wchen.me/resume
