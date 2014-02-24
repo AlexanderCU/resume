@@ -43,7 +43,6 @@ Experience
 Education
   Texas A&M University, College Station, TX                                             Aug 2008 - May 2012
   B.S. in Computer Science, minor in Business
-  Overall GPA: 3.01 Major GPA: 3.38
    * Relevant coursework: Network Security, Info Storage & Retrieval, Cryptography, Computational
      Photography, AI, Computer Graphics
    * Vice President of Texas A&M Computing Society, ACM Chapter
