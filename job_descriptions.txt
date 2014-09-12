@@ -1,0 +1,27 @@
+\em Software Engineer in Test}, \href{http://www.zdnet.com/microsofts-latest-search-share-attack-plan-focus-on-mobile-apps-7000008908/}{AppEx}, OSD                       \hfill {\bf Aug 2012 - present} \\
+Original job posting
+Enjoying your Surface RT and Windows 8? Excited about the direction Windows and Microsoft is headed? Want to get involved and work on helping to deliver on this vision? The OSD Application Experiences (AppEx) team was formed specifically to build Windows 8 applications, powered by Bing. The Weather, Sports, Travel, News, and Finance apps that ship in Windows 8 were all built by us! 
+
+The Common UX Test Team in AppEx is looking to hire a smart, energetic, highly motivated and self-driven tester to help us build and ship the premier modern applications for Windows 8. The Common UX team is responsible for delivering all the shared UI leveraged throughout the AppEx apps. This team is pushing HTML5 and Javascript to its limits as we deliver cutting edge UX that will be leveraged by all the AppEx applications. 
+
+There are many big challenges on the horizon at AppEx. We have an aggressive product cycle with the goal of becoming best in class applications. You can make a difference and own significant pieces of the growth of our ecosystem. Bring your passion for building cutting-edge, interactive, consumer rich clients to our team and realize your full career potential. 
+
+The ideal candidate will have:
+- A passion for application functional testing, performance/accessibility/security testing and experience in writing test automation
+- Passion to drive improvement in the overall customer experience
+- Experience testing on touch-driven devices such as Windows 8, iPad, iPhone, Android, or Windows Phone 7 is a plus. 
+- Experience working with Online Services or Azure
+- Excellent problem solving skills
+- Be self-critical and have an accountable work approach
+- Ability to work in a fast-paced environment that includes an aggressive release schedule
+- Experience working across multiple groups and teams
+- Experience working within a geographically-dispersed team.
+- A BS degree in Computer Science or related field is preferred
+
+Competencies/Skills:
+- 3+ years of industry experience including test plan and case development and test automation 
+- Experience working and managing vendor testers
+- Experience working with C#/Javascript/HTML5
+- A strong understanding of test methodologies and software engineering
+- Experience testing one or more products through all phases of the software development life cycle 
+- Excellent communication skills, follow-up, and self-motivation are a must
