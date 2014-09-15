@@ -7,44 +7,38 @@ Information  will@iamchen.com             http://github.com/wwchen
 
 Experience
   Microsoft, Bellevue, WA
+  Software Engineer, Info & Content Experiences, MSN                                    Feb 2014 - present
+   * Worked on V1 Android and iOS products for the new MSN
+   * One-man build team: Xcode continuous integration server to support over 100 developers, 8 apps
+     with extensible configurations
+   * Primary driver for various tenets across all apps, e.g. telemetry, sharing, UI automation, stress
+     testing
+
   Software Engineer in Test, AppEx, OSD                                                 Aug 2012 - present
-   * Working on Application Experiences Common UX test team, where we own and test the common
-     controls and features for all modern Bing apps (News, Weather, Travel, Finance, Sports, Health
-     & Fitness, Food & Drinks) on Windows 8 and 8.1
-   * Successfully shipped six releases since Windows 8 RTM, with zero recall class bugs
-   * Create and execute test plans which encompass aspects like instrumentation, data fuzzing, inte-
-     gration, memory leak, accessibility, network bandwidth
+   * Worked on common controls used in V1 Windows 8 modern apps for Bing consumer content
    * Drove initial efforts on building test app and automation tools
-   * Feature test owner for: entity cluster, test automation, instrumentation, live site, partner pano, ads
+   * Successfully shipped six releases since Windows 8 RTM, with zero recall class bugs
    * Work impact: 2.9M daily active users and 52.1M daily active sessions
 
   Software Engineer in Test Intern, Bing Mobile, OSD                                    May 2011 - Aug 2011
    * Implemented an end-to-end solution for automation testing on Blackberry and Android devices
-     and emulators for Bing Mobile
-   * Leveraged existing solutions across teams and combining them for a more uniform approach
 
   Cisco, San Jose, CA
   Choice Intern, IOS Threat Defense Team, ARTG                                          May 2010 - Aug 2010
-   * Drafted and executed test cases for IOS security features such as SCM and FPM (signature- and
-     statistical-based packet matching)
-   * Gained in-depth understanding of IPS/IDS, IOS CLI, Skype trafficking, packet matching
+   * Research project on QoS and network security by filtering polymorphic (e.g. Skype) traffic with
 
   Texas A&M University, College Station, TX
   Student Technician, Dept. of Mathematics                                              Sept 2010 - Sept 2011
-   * Performed Unix system administration (FreeBSD, CentOS, Mint, Debian) and help desk activities
-   * Wrote departmental management and survey tools
-   * Maintained student computer labs of 200+ machines
+   * System, faculty and lab machine administration, all using different Unix variants - FreeBSD,
+     CentOS, Mint, Debian
 
   Student Programs Web Developer, Memorial Student Center                               Sept 2009 - Sept 2010
-   * Web development support to the 19 MSCC Committees by providing programming and design support
-   * Provide design consultation services and recommendations to client (Committee members)
-   * Design and create a client-approved layout that works with the in-house template system
+   * Web development consultation to 19 different MSCC Committees. Designed and implemented
+     website templates compliant with the in-house CMS.
 
 Education
   Texas A&M University, College Station, TX                                             Aug 2008 - May 2012
   B.S. in Computer Science, minor in Business
-   * Relevant coursework: Network Security, Info Storage & Retrieval, Cryptography, Computational
-     Photography, AI, Computer Graphics
    * Vice President of Texas A&M Computing Society, ACM Chapter
    * Webmaster of Chinese Student Association
 
@@ -56,6 +50,7 @@ Achievements
 Skills
   * Extensive experience on configuring and troubleshooting Debian-based machines
   * Knowledgeable in networking, security, web programming
-  * C++; bash, Ruby, Python; Rails, Javascript; Latex, Cisco IOS
+  * Objective-C, C#, bash, Ruby, Python, Perl; Rails, Javascript; Latex, Cisco IOS
 
 ** Get the latest resume at wchen.me/resume
+
